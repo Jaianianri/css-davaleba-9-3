@@ -1,0 +1,9 @@
+@media screen and (max-width: 1024px){
+    .Actionm {
+        max-width: 704px;
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+    }
+}

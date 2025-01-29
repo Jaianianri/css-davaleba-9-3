@@ -1,0 +1,24 @@
+@media screen and (max-width: 767px) {
+    .burgar {
+        display: flex;
+    }
+
+    .header-box {
+        display: none;
+    }
+
+    .McCoy {
+        display: none;
+    }
+
+    .betmeni {
+        display: none;
+    }
+
+    .Recommended-container {
+        flex-direction: column;
+    }
+    .movee-foto{
+        flex-direction: column;
+    }
+}

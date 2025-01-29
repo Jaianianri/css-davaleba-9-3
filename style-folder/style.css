@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0E0E0E;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.header-container {
+    max-width: 840px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-span {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.header-span:hover {
+    color: #FFF;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.McCoy {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    gap: 32px;
+}
+
+.main-container {
+    max-width: 840px;
+    width: 100%;
+    background-image: url(../imig-folder/image\ \(3\).png);
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-container {
+    display: flex;
+    max-width: 270px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.Batman {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+
+}
+
+
+
+.The {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+}
+
+.of {
+    color: #7B7B7B;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.Fantasy {
+    display: flex;
+    max-width: 355px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding-top: 90px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.Fantasy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.reboot {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.Fant {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.wrote {
+    color: #7B7B7B;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.Fantasy-button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px 32px;
+    background: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+    color: #FFF;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.main-box {
+    display: flex;
+    max-width: 530px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.Recommended {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 32px;
+}
+
+.Recommended-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.input-container {
+    display: flex;
+    max-width: 269px;
+    width: 100%;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #191919;
+    border: #A00;
+
+}
+
+.input-name {
+    background: #191919;
+    color: #7B7B7B;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+
+
+}
+
+.dropdown {
+    display: flex;
+    width: 100px;
+    padding: 8px 12px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #191919;
+    color: #7B7B7B;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.burgar {
+    display: none;
+}
+
+
+.button button {
+    display: none;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 16px;
+    border-radius: 8px 32px;
+    background-color: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+}
+
+.Drama {
+    display: flex;
+    justify-content: center;
+}
+
+.Actionm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    max-width: 840px;
+    width: 100%;
+}
+
+.game {
+    background-image: url(../imig-folder/Rectangle\ 10\ \(2\).png)
+}
+
+.button {
+    display: flex;
+    align-items: stretch;
+    width: 192px;
+    min-width: 158px;
+    min-height: 219px;
+    max-height: 219px;
+}
+
+.button div {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.year-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.button:hover button {
+    display: flex;
+}
+
+.button:hover div {
+    backdrop-filter: blur(2px);
+}
+
+.came {
+    background-image: url(../imig-folder/image\ \(4\).png);
+}
+
+.coz {
+    background-image: url(../imig-folder/image\ \(6\).png);
+}
+
+.ashes {
+    background-image: url(../imig-folder/image\ \(7\).png);
+}
+
+.own {
+    background-image: url(../imig-folder/image\ \(8\).png);
+}
+
+.priceles {
+    background-image: url(../imig-folder/image\ \(9\).png);
+}
+
+.first {
+    background-image: url(../imig-folder/image\ \(10\).png);
+}
+
+.woman {
+    background-image: url(../imig-folder/image\ \(11\).png);
+}
+
+.movee-foto {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.foto-div {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-direction: column;
+}
